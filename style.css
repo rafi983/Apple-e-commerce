@@ -959,15 +959,19 @@ html {
   }
 
   .logo {
-    top: 10rem;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 20rem;
+    left: 30%;
+    transform: translateX(-30%);
   }
 
   .navbar {
     left: 50%;
     transform: translateX(-50%);
     width: max-content;
+  }
+  .section-1-banner h1 {
+    font-size: 5rem;
+    text-align: center;
   }
 
   .section-1-banner p {
@@ -1001,6 +1005,11 @@ html {
 
   .icon-link img {
     width: 6rem;
+  }
+
+  .section-6-icons {
+    display: flex;
+    text-align: center;
   }
 }
 /* End of Responsive */
